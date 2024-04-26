@@ -1,0 +1,31 @@
+ 
+
+ .container{
+    width: 1000px;
+ }
+.wrapper{
+    padding: 100px 0px;
+    background-color: rgb(26, 26, 28);  
+}
+.wrapper__container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cart__img{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+.cart{
+  background-color: rgb(26, 26, 28);
+  border-radius: 20px;
+  width: 300px;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  padding: 50px 0px;
+}
+.cart:hover{
+    background-color: rgb(63, 63, 63);
+}
